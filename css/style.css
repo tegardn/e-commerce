@@ -1,0 +1,189 @@
+/* CSS RESET */
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Global Style */
+
+body {
+    background: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.section-title {
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+/* Header */
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: inline-block;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+
+}
+
+header h1 {
+    float: left;
+    color: #fff;
+}
+/* Navigasi Menu */
+nav {
+    float: right;
+}
+
+nav ul {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+banner {
+    padding-left: 100px;
+}
+
+.gambar {
+    background: #808080;
+    color: #fff;
+}
+
+.gambar .wrapper {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.gambar-hewan {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.kucing-anggora {
+    font-weight: 300;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.gambar .wrapper {
+    align-items: cener;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.gambar-hewan {
+    text-align: center;
+    width: 23%;
+}       
+
+.gambar-hewan img {
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer {
+    text-align: center;
+    background: rgb(56, 109, 255);
+}
+
+.nilai {
+    background-color: #fff;
+}
+
+.nilai .wrapper {
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.nilai-title, .sertifikasi-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.table-nilai, .table-sertifikasi {
+    border: 1px solid #808080;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-nilai td, .table-nilai th, .table-sertifikasi td, .table-sertifikasi th {
+    border: 1px solid #000;
+    padding: 15px 20px;
+}
+
+.table-nilai th, .table-sertifikasi th {
+    background: #808080;
+    columns: #fff;
+}
+
+.tabel-nilai td, .table-sertifikasi td {
+    text-align: center;
+}
